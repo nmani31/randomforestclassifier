@@ -1,5 +1,5 @@
 import pandas as pd
-dataset = pd.read_csv('/Users/sridharmani/Desktop/brown lab/datasetfinal-1.csv')
+dataset = pd.read_csv('dataset-pathname.csv')
 from sklearn.model_selection import train_test_split
 independent = dataset[['VOP','NOP','POP']]
 dependent = dataset['motility']
